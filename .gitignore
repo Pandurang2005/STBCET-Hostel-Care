@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+.venv-1/
+.venv-2/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local uploads and generated files
+static/uploads/
+*.log
